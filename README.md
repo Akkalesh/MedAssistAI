@@ -3,7 +3,7 @@
 This project involves building a Medical Assistant Chatbot using a fine-tuned Large Language Model (Flan-T5) and deploying it via FastAPI and Gradio.
 
 ## Directory Structure
-
+"""
 backend/
 ├── dataset/
 ├── models/
@@ -15,7 +15,7 @@ backend/
 │   ├── main.py
 ├── requirements.txt
 ├── README.md
-
+"""
 ## Setup Instructions
 
 1. Clone the repository.
