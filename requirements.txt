@@ -73,3 +73,5 @@ werkzeug==3.0.4
 xxhash==3.5.0
 yarl==1.11.1
 zipp==3.20.2
+gradio
+requests
