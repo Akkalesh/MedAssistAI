@@ -3,19 +3,28 @@
 This project involves building a Medical Assistant Chatbot using a fine-tuned Large Language Model (Flan-T5) and deploying it via FastAPI and Gradio.
 
 ## Directory Structure
-"""
-backend/
-├── dataset/
-├── models/
-├── scripts/
-│   ├── prepare_dataset.py
-│   ├── train_model.py
-│   ├── train_lora.py
-├── app/
-│   ├── main.py
-├── requirements.txt
-├── README.md
-"""
+
+### Create the backend directory
+mkdir backend
+
+### Create subdirectories for dataset, models, scripts, and app
+mkdir backend/dataset
+mkdir backend/models
+mkdir backend/scripts
+mkdir backend/app
+
+### Create Python script files inside the scripts folder
+touch backend/scripts/prepare_dataset.py
+touch backend/scripts/train_model.py
+touch backend/scripts/train_lora.py
+
+### Create the main.py file in the app folder
+touch backend/app/main.py
+
+### Create additional necessary files
+touch backend/requirements.txt
+touch backend/README.md
+
 ## Setup Instructions
 
 1. Clone the repository.
